@@ -20,7 +20,7 @@ yolo_format/SR&SR_multi are super resolution reconstructed by Real-ESRGAN with [
 **Mask RCNN** was trained with [Detection2](https://github.com/facebookresearch/detectron2.git)
 
 ## Results
-The results include the trained weights, parameters, and evaluation.
+The results include the trained weights, parameters, and evaluation. Weight of Mask RCNN was too large, I attached it in the release.
 
 results/yolo/predict/predict_plots_both was predicted by results/yolo/train/SR/weights/best.pt  
 We used yolov8 to segment the potatoes and weeds in each plot. The .txt file in results\yolo\predict\predict_plots_both\labels  contains the coordinate information of each object. We used code\yolo\mask_area.py to calculate the coverage area of ​​potatoes and weeds in each plot.  
