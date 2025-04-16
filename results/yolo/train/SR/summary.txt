@@ -1,0 +1,6 @@
+YOLOv8n-seg summary (fused): 195 layers, 3258454 parameters, 0 gradients, 12.0 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00,  7.38it/s]
+                   all         20        190      0.783      0.891      0.889      0.685      0.811      0.886      0.909      0.641
+                potato         20         89      0.868          1      0.986       0.86      0.872          1      0.986       0.85
+                  weed         20        101      0.698      0.782      0.793      0.511       0.75      0.772      0.832      0.433
+Speed: 0.1ms preprocess, 1.4ms inference, 0.0ms loss, 0.5ms postprocess per image
